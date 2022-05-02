@@ -1,0 +1,50 @@
+{
+  "posts": [
+    {
+      "id": 2,
+      "name": "Anshu Mallik",
+      "email": "anshumallik143@gmail.com",
+      "phone": "98043352483",
+      "fees": "100"
+    },
+    {
+      "id": 3,
+      "name": "Ram Thapa",
+      "email": "ram@gmail.com",
+      "phone": "9825362759",
+      "fees": "150"
+    },
+    {
+      "id": 4,
+      "name": "Ram  Magar",
+      "email": "rammagar@gmail.com",
+      "phone": "9807896998",
+      "fees": "89"
+    },
+    {
+      "id": 7,
+      "name": "Nishu Karna",
+      "email": "nishukarna@gmail.com",
+      "phone": "98078970978",
+      "fees": "89"
+    },
+    {
+      "id": 8,
+      "name": "Anshu Mallik",
+      "email": "anshumallik126@gmail.com",
+      "phone": "9804335248",
+      "fees": "1200"
+    },
+    {
+      "id": 9,
+      "name": "Anshu Mallik",
+      "email": "anshumallik126@gmail.com",
+      "phone": "9804335248",
+      "fees": "00"
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}

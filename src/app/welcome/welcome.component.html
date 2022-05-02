@@ -1,0 +1,28 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-8 mx-auto pt-5">
+      <div class="card bg-light">
+        <div class="card-body p-4">
+          <h1>Welcome to Quiz App</h1>
+          <p>
+            This quiz will contain total 9-questions. Each question holds 10
+            points
+          </p>
+          <h5>Rules</h5>
+          <ol>
+            <li>Correct Question gives you 10 points</li>
+            <li>InCorrect Question gives you -10 points</li>
+            <li>You will have 60 sec to answer each question</li>
+            <li>Refreshing the page will reset the Quiz</li>
+          </ol>
+          <h5 class="text-center">All the best !!</h5>
+          <div class="col-md-4">
+            <label for="name"><strong>Enter your name</strong></label>
+            <input #name type="text" class="form-control" required />
+          </div>
+          <button (click)="startquiz()" class="btn btn-primary mt-3" routerLink="/question">Start the Quiz</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

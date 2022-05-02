@@ -1,0 +1,282 @@
+{
+  "questions": [
+    {
+      "questionText": "Which of the following is Not a type used in typescript?",
+      "options": [
+        {
+          "text": "number"
+        },
+        {
+          "text": "string"
+        },
+        {
+          "text": "boolean"
+        },
+        {
+          "text": "enum",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "Which of the following is correct about TypeScript?",
+      "options": [
+        {
+          "text": "Angular is based on TypeScript."
+        },
+        {
+          "text": "This is a superset of JavaScript."
+        },
+        {
+          "text": "TypeScript is maintained by Microsoft."
+        },
+        {
+          "text": "All of the above.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionText": "In Angular, you can pass data from the parent component to the child component by using",
+      "options": [
+        {
+          "text": "@Output()",
+          "correct": true
+        },
+        {
+          "text": "@Input()"
+        },
+        {
+          "text": "Input"
+        },
+        {
+          "text": "Output"
+        }
+      ]
+    },
+    {
+      "questionText": "Which directive connects the value of the controls to the data?",
+      "options": [
+        {
+          "text": "ng-model",
+          "correct": true
+        },
+        {
+          "text": "ng-app"
+        },
+        {
+          "text": "ng-init"
+        },
+        {
+          "text": "All of Above"
+        }
+      ]
+    },
+    {
+      "questionText": "Which directive modifies DOM hierarchy?",
+      "options": [
+        {
+          "text": "Structural directive",
+          "correct": true
+        },
+        {
+          "text": "Attribute directive"
+        },
+        {
+          "text": "All of Above"
+        },
+        {
+          "text": "None"
+        }
+      ]
+    },
+    {
+      "questionText": "Which is the correct form control class name that is set to true via [(ngModel)] whenever value is changed?",
+      "options": [
+        {
+          "text": ".ng-invalid"
+        },
+        {
+          "text": ".ng-pending"
+        },
+        {
+          "text": ".ng-pristine",
+          "correct": true
+        },
+        {
+          "text": ".ng-dirty"
+        }
+      ]
+    },
+    {
+      "questionText": "In Angular routing, which tag is used to render matched component via active route?",
+      "options": [
+        {
+          "text": "<router></router>"
+        },
+        {
+          "text": "<router-output></router-output>"
+        },
+        {
+          "text": "<router-outlet></router-outlet>",
+          "correct": true
+        },
+        {
+          "text": "<router-display></router-display>"
+        }
+      ]
+    },
+    {
+      "questionText": "Which command is used to run the Static Code analysis of Angular application?",
+      "options": [
+        {
+          "text": "ng build"
+        },
+        {
+          "text": "ng profile"
+        },
+        {
+          "text": "ng lint",
+          "correct": true
+        },
+        {
+          "text": "ng serve"
+        }
+      ]
+    },
+    {
+      "questionText": "Which command must be used to build an application in production mode?",
+      "options": [
+        {
+          "text": "ng build",
+          "correct": true
+        },
+        {
+          "text": "ng lint"
+        },
+        {
+          "text": "ng build --prod"
+        },
+        {
+          "text": "ng serve"
+        }
+      ]
+    },
+    {
+      "questionText": "Which of the following does TypeScript use to specify types?",
+      "options": [
+        {
+          "text": ":",
+          "correct": true
+        },
+        {
+          "text": ";"
+        },
+        {
+          "text": "!"
+        },
+        {
+          "text": "&"
+        }
+      ],
+      "explanation": "TS uses a colon (:) to separate the property name from the property type"
+    },
+    
+    {
+      "questionText": "How can we specify properties and methods for an object in TypeScript?",
+      "options": [
+        {
+          "text": "Use classes."
+        },
+        {
+          "text": "Use interfaces.",
+          "correct": true
+        },
+        {
+          "text": "Use enums."
+        },
+        {
+          "text": "Use async/await."
+        }
+      ],
+      "explanation": "interfaces are typically used to list the properties and methods for an object"
+    },
+    {
+      "questionText": "How else can Array<number> be written in TypeScript?",
+      "options": [
+        {
+          "text": "@number"
+        },
+        {
+          "text": "number[]",
+          "correct": true
+        },
+        {
+          "text": "number!"
+        },
+        {
+          "text": "number?"
+        }
+      ],
+      "explanation": "number[] is another way of writing Array<number> in TypeScript"
+    },
+  
+    {
+      "questionText": "Which keyword allows us to share information between files in TypeScript?",
+      "options": [
+        {
+          "text": "import"
+        },
+        {
+          "text": "export",
+          "correct": true
+        },
+        {
+          "text": "async"
+        },
+        {
+          "text": "constructor"
+        }
+      ],
+      "explanation": "the export keyword allows for the information to be transmitted between files"
+    },
+    {
+      "questionText": "Which is an array method to generate a new array based on a condition?",
+      "options": [
+        {
+          "text": "filter",
+          "correct": true
+        },
+        {
+          "text": "map"
+        },
+        {
+          "text": "async"
+        },
+        {
+          "text": "enum"
+        }
+      ],
+      "explanation": "filter is a method used to conditionally create a new array"
+    },
+    {
+      "questionText": "How is a property accessible within a class?",
+      "options": [
+        {
+          "text": "Using this.propertyName",
+          "correct": true
+        },
+        {
+          "text": "Accessors"
+        },
+        {
+          "text": "Destructuring"
+        },
+        {
+          "text": "Arrow function"
+        }
+      ],
+      "explanation": "this.propertyName is the way to access a specific property within a class"
+    }
+  ]
+}

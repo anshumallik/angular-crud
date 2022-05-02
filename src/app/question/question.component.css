@@ -1,0 +1,19 @@
+.color {
+  color: blue;
+}
+li {
+  list-style-type: none;
+  cursor: pointer;
+  margin: 10px 0;
+}
+.card {
+  padding: 10px;
+  margin: 0 auto;
+}
+
+li .card:hover {
+  border: 1px solid green;
+}
+ol {
+  padding: 0;
+}
